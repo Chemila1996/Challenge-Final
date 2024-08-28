@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <textarea id="inputText" placeholder="Ingresa el texto aquí..."></textarea>
+            <p id="validationMessage" style="color: red; display: none;">No se aceptan mayúsculas ni caracteres especiales</p>
+            <button id="encryptButton">Cifrar</button>
+            <button id="decryptButton">Descifrar</button>
+        </div>
+        <div class="output-section">
+            <textarea id="outputText" readonly placeholder="Aquí se mostrará el texto..."></textarea>
+            <button id="copyButton">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        Creado por María Camila Palacio H. &copy; 2024
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
